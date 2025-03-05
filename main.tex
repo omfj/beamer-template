@@ -1,0 +1,30 @@
+\documentclass[aspectratio=169]{beamer}
+\usetheme{Madrid}
+
+\usepackage{bookmark}
+
+\bibliographystyle{plain}
+
+\title{My beamer presentation}
+\author{Ola Nordmann}
+\institute{University of Stackoverflow}
+\date{\today}
+
+\begin{document}
+
+    \begin{frame}
+        \titlepage
+    \end{frame}
+
+    \begin{frame}
+        \frametitle{Sample frame title}
+
+        This is some text in the first frame. This is some text in the first frame. This is some text in the first frame.
+    \end{frame}
+
+    \begin{frame}
+        \nocite{*}
+        \bibliography{refs}
+    \end{frame}
+
+\end{document}
